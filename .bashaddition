@@ -1,0 +1,18 @@
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+# don't put duplicate lines in the history.
+HISTCONTROL=ignoredups:ignorespace
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias combolations='echo `grep -x co[mn].*ations /usr/share/dict/words | shuf -n 1`, elizagerth'
