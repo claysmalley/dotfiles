@@ -9,4 +9,12 @@ highlight colorcolumn ctermbg=5
 command W :w
 command Wa :wa
 command WA :wa
+command Wq :wq
+command WQ :wq
+command Wqa :wqa
+command WQa :wqa
+command WQA :wqa
+command Q! :q!
+command Qa! :qa!
+command QA! :qa!
 "colorscheme solarized
