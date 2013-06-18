@@ -14,7 +14,4 @@ command WQ :wq
 command Wqa :wqa
 command WQa :wqa
 command WQA :wqa
-command Q! :q!
-command Qa! :qa!
-command QA! :qa!
 "colorscheme solarized
